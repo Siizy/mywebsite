@@ -1,0 +1,116 @@
+h1 {
+    background: black;
+    color: white;
+}      
+body {
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;               
+}
+
+/* HEADERS */
+header {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: justify;
+    height: 400px;
+    background-image: url("images/bakery.jpg");
+    background-repeat: none;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+
+header .logo a {
+    height: 80px;
+    text-indent: -99999999px;
+    width: 300px;
+    display: inline-block; 
+    background-image: url("images/pacific-dark.png");
+    background-size: 300px;
+    background-repeat: none;
+    position: relative;
+    top: -30px;
+}
+
+
+nav ul{ 
+    margin: 0;  
+    padding: 40px 0px 20px 0px;
+    list-style-type: none;
+    margin-right: 20px;
+    
+}
+
+nav li{   
+    color: white;
+    margin-right: 20px;               
+    display: inline-block;  
+    text-transform: uppercase;    
+}
+
+section {
+    background: white;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* FEATURES */
+.features {
+    background: white;
+    color: gray;   
+    display: flex;
+    flex-direction: row;  
+}
+
+.features figure {
+    background: white;
+    color: gray;
+    width: 400px; 
+    margin: auto;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.features figcaption{
+   margin: 10px;  
+}
+
+.features figure img {
+    background: white;
+    color: gray;
+    width: 200px; 
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+}
+
+/* FOOTERS */
+footer{
+    
+    background: black;
+    color: gray;
+    padding: 20px 20px;
+    text-align: center;   
+}
+div {
+    background: black;
+    color: white;              
+    margin: auto;
+    width: 100px;       
+}
+ 
+a {   
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;               
+    display: inline-block;    
+}
